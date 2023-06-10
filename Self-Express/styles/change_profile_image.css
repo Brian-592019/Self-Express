@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Inika";
+    scroll-behavior: smooth;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    height: 70px;
+    background-color: whitesmoke;
+}
+
+#header{
+
+    height: 50px;
+    width:100%;
+    background-color: #A6A4A4;
+    color: whitesmoke;
+    text-decoration:none;
+
+}
+
+#search_box{
+
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+    border:none;
+    padding: 4px;
+    font-size: 14px;
+    background-image: url(../search.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+
+#post_button{
+
+    float: right;
+    background-color: #FCEFEF;
+    border:none;
+    color: white;
+    padding: 4px;
+    font-size: 14px;
+    border-radius: 2px;
+    width: 100px;
+}
+
+ #post_bar{
+
+     margin-top: 20px;
+     background-color: white;
+     padding: 10px;
+ }
+
+ #post{
+
+     padding: 4px;
+     font-size: 13px;
+     display: flex;
+     margin-bottom: 20px;
+ }

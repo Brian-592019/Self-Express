@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Inika";
+    scroll-behavior: smooth;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    height: 70px;
+    background-color: whitesmoke;
+}
+
+body{
+    background-color: #1C2125;
+}
+/* Start of Profile Page */
+#header{
+
+    height: 50px;
+    width:100%;
+    background-color: #A6A4A4;
+    text-decoration:none;
+
+}
+
+#search_box{
+
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+    border:none;
+    padding: 4px;
+    font-size: 14px;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+#textbox{
+
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    border:none;
+    padding: 4px;
+    font-size: 14px;
+    border: solid thin grey;
+    margin:10px;
+
+}
+
+#profile_pic{
+
+    width: 150px;
+    margin-top: -300px;
+    border-radius: 50%;
+    border:solid 2px white;
+}
+
+#menu_buttons{
+
+    width: 100px;
+    display: inline-block;
+    margin:2px;
+    color: black;
+}
+
+#friends_img{
+
+    width: 75px;
+    float: left;
+    margin:8px;
+}
+
+#friends_bar{
+
+    background-color: whitesmoke;
+    min-height: 400px;
+    margin-top: 20px;
+    color: black;
+    padding: 8px;
+}
+
+#friends{
+
+     clear: both;
+     font-size: 12px;
+     font-weight: bold;
+     color: black;
+}
+
+textarea{
+
+    width: 100%;
+    border:none;
+    font-size: 14px;
+    height: 60px;
+
+}
+
+#post_button{
+
+    float: right;
+    background-color: #FCEFEF;
+    border:none;
+    color: black;
+    padding: 4px;
+    font-size: 14px;
+    border-radius: 2px;
+    width: 50px;
+    min-width: 50px;
+    cursor: pointer;
+    outline: 2px solid black;
+}
+
+ #post_bar{
+
+     margin-top: 20px;
+     background-color: whitesmoke;
+     padding: 10px;
+ }
+
+ #post{
+
+     padding: 4px;
+     font-size: 13px;
+     display: flex;
+     margin-bottom: 20px;
+ }
